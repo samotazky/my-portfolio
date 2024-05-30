@@ -1,0 +1,59 @@
+
+.container-tech  {
+    background-color: #E0E1E0;
+    padding: 100px 24px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 180px;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    line-height: 0.8;
+    max-width: 1046px;
+}
+
+.content-tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.rectangle {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 80%;
+    height: 643px;
+}
+
+.tech {
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    place-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.skills {
+    font-family: "Lekton", monospace;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.road-map {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

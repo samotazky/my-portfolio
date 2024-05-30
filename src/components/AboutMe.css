@@ -1,0 +1,87 @@
+#wrapper {
+    background-color: #D1D3D4;
+    padding: 100px 24px;
+}
+
+.subtitle-about-me {
+    font-weight: 700;
+    font-size: 180px;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    line-height: 0.8;
+    margin-bottom: 80px;
+}
+
+.content-about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-text-about-me {
+    margin-top: -380px;
+}
+
+#me {
+    max-width: 490px;
+    height: 750px;
+    margin-top: -180px;
+}
+
+.content-about-me p {
+    max-width: 568px;
+    padding-bottom: 20px;
+}
+
+.content-about-me p::selection {
+    background: #1A1A1A;
+    color: white;
+} 
+
+.links-about-me {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.github {
+    height: 37px;
+    padding: 2px 3px;
+    text-decoration: none;
+    border: 2px solid #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin {
+    height: 37px;
+    padding: 2px 3px;
+    text-decoration: none;
+    border: 2px solid #0A66C2;
+    background-color: #0A66C2;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv {
+    height: 37px;
+    padding: 2px 3px;
+    text-decoration: none;
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

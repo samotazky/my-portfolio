@@ -1,0 +1,43 @@
+
+
+.container {
+    height: 100vh;
+    background-color: #DCE359;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 225px;
+    color: #1A1A1A;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    line-height: 0.8;
+}
+
+.w {
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.person {
+    position: absolute;
+    z-index: 0;
+    margin: 0 auto;
+}
+
+.theet {
+    max-width: 522px;
+    margin-left: 24px;
+}

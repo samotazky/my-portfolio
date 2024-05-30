@@ -1,6 +1,7 @@
 import ageCalculator from "./images/age-calculator-app.png"
 import interiorDesign from "./images/interior-design-website.png"
 import spaceTourism from "./images/space-tourism.png"
+import myPortfolio from "./images/my_portfolio.png"
 
 const myProjects = [
     {
@@ -27,6 +28,14 @@ const myProjects = [
         descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Z tohoto dôvodu je nutné si na správne zobrazovanie stránky nastaviť veľkosť webu na šírku 1500px a výšku 900px. NIE JE DOKONČENÝ!!!",
         gitHub: "https://github.com/samotazky/space-tourism-website",
         netlify: "https://space-tourism123456.netlify.app/",
+    }, {
+        id: 4,
+        image: myPortfolio,
+        name: "My portfolio",
+        technologies: "React, CSS",
+        descriptions: "Tento projekt slúži na prezentáciu mojej práce. Predlohu som nadizajnoval v programe Figma. NIE JE DOKONČENÝ!!!",
+        gitHub: "https://github.com/samotazky/my-portfolio",
+        netlify: "",
     }
 ]
 

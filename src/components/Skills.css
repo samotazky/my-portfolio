@@ -24,13 +24,7 @@
 
 .rectangle {
     background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    width: 80%;
-    height: 643px;
+    padding: 80px 25px;
 }
 
 .tech {
@@ -50,10 +44,10 @@
 }
 
 .road-map {
-    width: 100%;
+    max-width: 1000px;
     height: auto;
     z-index: 1;
     position: absolute;
-    top: 0;
-    left: 0;
 }
+
+

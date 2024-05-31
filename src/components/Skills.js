@@ -1,6 +1,6 @@
 import "./Skills.css"
 import circles from "../images/Circles.svg"
-import roadMap from "../images/Roadmap.svg"
+import roadMap from "../images/road-map.png"
 
 const Skills = () => {
     return <div className="container-tech">
@@ -23,7 +23,7 @@ const Skills = () => {
                         <p className="skills">mysql</p>
                         <p className="skills">tailwind</p>
                         <p className="skills">react</p>
-                        <img className="road-map" src={roadMap} alt="" />
+                        <img className="road-map" src={roadMap} alt="road map" />
                 </div>
             </div>
         </div>

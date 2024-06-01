@@ -28,15 +28,16 @@ const Projects = () => {
                     const {id, image, name, technologies, descriptions, gitHub, netlify} = oneProject
                     
                     return <div className="project" key={id}>
-                            <img className="project-img" src={image} alt="" />
-                            <div className="project-content">
-                                <h2>{name}</h2>
-                                <h3>{technologies}</h3>
-                                <p>{descriptions}</p>
+                            <div className="project-img" style={{ backgroundImage: `url(${image})` }}>
                                 <div className="project-links">
                                     <a className="github link" href={gitHub} target="blank">Code</a>
                                     <a className="netlify link" href={netlify} target="blank">Live</a>
                                 </div>
+                            </div>
+                            <div className="project-content">
+                                <h2>{name}</h2>
+                                <h3>{technologies}</h3>
+                                <p>{descriptions}</p>
                         </div>
                     </div>
                 })

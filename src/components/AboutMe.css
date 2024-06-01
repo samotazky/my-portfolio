@@ -1,50 +1,31 @@
 #wrapper {
     background-color: #D1D3D4;
-    padding: 100px 24px;
-}
-
-.subtitle-about-me {
-    font-weight: 700;
-    font-size: 180px;
-    color: #1A1A1A;
-    text-transform: uppercase;
-    letter-spacing: -3px;
-    line-height: 0.8;
-    margin-bottom: 80px;
+    padding: clamp(50px, 11vh, 110px) 24px;
 }
 
 .content-about-me {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    gap: 4vw;
 }
 
 .about-me {
     display: flex;
     align-items: center;
-    gap: 50px;
-}
-
-.img-text-about-me {
-    margin-top: -380px;
+    gap: 4.5vw;
 }
 
 #me {
-    max-width: 490px;
-    height: 750px;
-    margin-top: -180px;
+    width: clamp(290px, 36vw, 450px);
+    height: auto;
 }
 
 .content-about-me p {
-    max-width: 568px;
+    font-size: clamp(14px, 1.2vw, 16px);
+    width: 45vw;
     padding-bottom: 20px;
 }
-
-.content-about-me p::selection {
-    background: #1A1A1A;
-    color: white;
-} 
 
 .links-about-me {
     display: flex;
@@ -85,3 +66,27 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 940px) {
+    .about-me {
+        flex-wrap: wrap; 
+        justify-content: space-evenly;
+    }
+
+    #me {
+        margin-top: 60px;
+    }
+
+    .links-about-me {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .links-about-me {
+        flex-direction: column;
+        width: 150px;
+        margin: 0 auto;
+    }
+}
+

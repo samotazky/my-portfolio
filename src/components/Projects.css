@@ -1,8 +1,6 @@
-
-
 #content {
     background-color: #AF71BA;
-    padding: 100px 24px;
+    padding: clamp(50px, 11vh, 110px) 24px;
     position: relative;
 }
 
@@ -12,36 +10,25 @@
     gap: 70px;
     margin-top: 100px;
     align-items: center;
+    justify-content: center;
 }
 
 .project {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 20px;
-    max-width: 726px;
-    margin: 0 auto;
     color: #E0E1E0;
-    position: relative;
 }
 
 .project-img {
-    width: 470px;
-    height: 283px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.project:hover .project-links {
-    opacity: 1;
-}
-
-.project h2 {
-    text-transform: uppercase;
-}
-
-.project-content {
-    max-width: 235px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: clamp(290px, 31vw, 480px);
+    height: clamp(200px, 17vw, 400px);
+    position: relative;
 }
 
 .project-links {
@@ -49,10 +36,15 @@
     flex-direction: row;
     gap: 25px;
     position: absolute;
-    left: 149px;
-    bottom: 20px;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s;
+}
+
+.project:hover .project-links {
+    opacity: 1;
 }
 
 .link {
@@ -76,9 +68,28 @@
     color: #1E1E1E;
 }
 
+.project-content {
+    max-width: 235px;
+}
+
+.project h2 {
+    text-transform: uppercase;
+    font-size: clamp(20px, 3.2vw, 24px);
+}
+
+.project-content h3 {
+    font-size: clamp(16px, 2.8vw, 20px);
+}
+
+.project-content p {
+    font-size: clamp(14px, 1.2vw, 16px);
+}
+
+
 #person-with-ntb {
+    width: clamp(80px, 14vw, 200px);
     position: absolute;
-    top: 680px;
+    top: 650px;
     right: 20px;
 }
 
@@ -97,4 +108,11 @@ button {
 
 button:hover {
     box-shadow: -3px 2px 0px rgba(30, 30, 30, 0);
+}
+
+
+@media screen and (max-width: 795px) {
+    #person-with-ntb {
+        display: none;
+    }
 }

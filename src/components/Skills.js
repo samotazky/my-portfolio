@@ -4,13 +4,13 @@ import roadMap from "../images/road-map.png"
 
 const Skills = () => {
     return <div className="container-tech">
-        <h1 className="subtitle">Technológie & Skills</h1>
+        <h1 className="subtitle">Technológie <br/>& Skills</h1>
         
         <img src={circles} alt="" />
 
         <div className="content-tech">
             <div className="rectangle">
-                    <div className="tech">
+                    <div className="table">
                         <p className="skills">figma</p>
                         <p className="skills">photoshop</p>
                         <p className="skills">html</p>
@@ -18,7 +18,7 @@ const Skills = () => {
                         <p className="skills">git</p>
                         <p className="skills">sass</p>
                         <p className="skills">jquery</p>
-                        <p className="skills">javascript</p>
+                        <p className="skills">js</p>
                         <p className="skills">php</p>
                         <p className="skills">mysql</p>
                         <p className="skills">tailwind</p>

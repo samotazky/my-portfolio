@@ -4,7 +4,7 @@ import me from "../images/me.png"
 
 const AboutMe = () => {
     return <div id="wrapper">
-        <h1 className="subtitle-about-me">O mne</h1>
+        <h1 className="subtitle">O mne</h1>
         <div className="content-about-me">
             <img className="circles" src={circles} alt="" />
             <div className="about-me">

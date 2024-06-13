@@ -18,7 +18,7 @@ const myProjects = [
         name: "Interior design",
         technologies: "HTML, CSS, JS",
         descriptions: "Projekt ktorý slúži na prezentáciu firmy, ktorá sa zaoberá návrhom interiéru a následnou montážou.",
-        gitHub: "lhttps://github.com/samotazky/Interior-design-webpageink",
+        gitHub: "https://github.com/samotazky/Interior-design-webpage",
         netlify: "https://stalwart-belekoy-9d1f40.netlify.app/"
     }, {
         id: 3,

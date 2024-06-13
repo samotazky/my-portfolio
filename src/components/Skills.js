@@ -16,7 +16,7 @@ const Skills = () => {
                         <p className="skills">html</p>
                         <p className="skills">css</p>
                         <p className="skills">git</p>
-                        <p className="skills">sass</p>
+                        <p className="skills">scss</p>
                         <p className="skills">jquery</p>
                         <p className="skills">js</p>
                         <p className="skills">php</p>

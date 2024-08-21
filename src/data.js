@@ -18,7 +18,7 @@ const myProjects = [
         image: interiorDesign,
         name: "Interior design",
         technologies: "HTML, SCSS, JS",
-        descriptions: "Projekt ktorý slúži na prezentáciu firmy, ktorá sa zaoberá návrhom interiéru a následnou montážou.",
+        descriptions: "Projekt ktorý slúži na prezentáciu firmy, ktorá sa zaoberá návrhom interiéru a následnou montážou.PRACUJEM NA DOKONČENÍ!!!",
         gitHub: "https://github.com/samotazky/Interior-design-webpage",
         netlify: "https://stalwart-belekoy-9d1f40.netlify.app/"
     }, {
@@ -26,7 +26,7 @@ const myProjects = [
         image: spaceTourism,
         name: "Space tourism",
         technologies: "HTML, CSS, JS",
-        descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Z tohoto dôvodu je nutné si na správne zobrazovanie stránky nastaviť veľkosť webu na šírku 1500px a výšku 900px. NIE JE DOKONČENÝ!!!",
+        descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Z tohoto dôvodu je nutné si na správne zobrazovanie stránky nastaviť veľkosť webu na šírku 1500px a výšku 900px. PRACUJEM NA DOKONČENÍ!!!",
         gitHub: "https://github.com/samotazky/space-tourism-website",
         netlify: "https://space-tourism123456.netlify.app/",
     }, {
@@ -34,7 +34,7 @@ const myProjects = [
         image: multiStepForm,
         name: "Multi step form",
         technologies: "React, CSS",
-        descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Jedná sa o viac stránkový formulár ktorý kontroluje či boli údaje zadané. PRACUJEM NA DOKONČENÍ!!!",
+        descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Jedná sa o viac stránkový formulár ktorý kontroluje či boli údaje zadané.",
         gitHub: "https://github.com/samotazky/multi-step-form-main",
         netlify: "https://multistepform5.netlify.app"
     }, {
@@ -42,7 +42,7 @@ const myProjects = [
         image: myPortfolio,
         name: "My portfolio",
         technologies: "React, CSS",
-        descriptions: "Tento projekt slúži na prezentáciu mojej práce. Predlohu som nadizajnoval v programe Figma. NIE JE DOKONČENÝ!!!",
+        descriptions: "Tento projekt slúži na prezentáciu mojej práce. Predlohu som nadizajnoval v programe Figma.",
         gitHub: "https://github.com/samotazky/my-portfolio",
         netlify: "",
     }

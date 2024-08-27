@@ -33,8 +33,8 @@ const myProjects = [
         id: 4,
         image: multiStepForm,
         name: "Multi step form",
-        technologies: "React, CSS",
-        descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Jedná sa o viac stránkový formulár ktorý kontroluje či boli údaje zadané.",
+        technologies: "HTML, CSS, JS",
+        descriptions: "Tento projekt je naprogramovaný podľa predlohy zo stránky Frontend Mentor. Jedná sa o viac stránkový formulár ktorý kontroluje či boli údaje zadané. Po zadaní základných informácii si klient vyberie plán a vyberie si či chce platiť mesačne alebo ročne. Na ďalšej strane si vyberie doplnkové služby a na poslednej strane sa nachádza výsledná cena produktov.",
         gitHub: "https://github.com/samotazky/multi-step-form-main",
         netlify: "https://multistepform5.netlify.app"
     }, {

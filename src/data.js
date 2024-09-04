@@ -1,3 +1,4 @@
+import fakeStore from "./images/fake-store.png"
 import ageCalculator from "./images/age-calculator-app.png"
 import interiorDesign from "./images/interior-design-website.png"
 import spaceTourism from "./images/space-tourism.png"
@@ -6,14 +7,6 @@ import myPortfolio from "./images/my_portfolio.png"
 
 const myProjects = [
     {
-        id: 1,
-        image: ageCalculator,
-        name: "Age calculator",
-        technologies: "HTML, CSS, JS",
-        descriptions: "Túto aplikáciu som programov podľa predlohy zo stránky Frontend Mentor. Táto aplikácia počíta na základe dátumu narodenia počet rokov, mesiacov a dní.",
-        gitHub: "https://github.com/samotazky/age-calculator-app-main",
-        netlify: "https://relaxed-creponne-2df784.netlify.app/"
-    }, {
         id: 2,
         image: interiorDesign,
         name: "Interior design",
@@ -22,7 +15,23 @@ const myProjects = [
         gitHub: "https://github.com/samotazky/Interior-design-webpage",
         netlify: "https://stalwart-belekoy-9d1f40.netlify.app/"
     }, {
+        id: 1,
+        image: fakeStore,
+        name: "Simple fake store",
+        technologies: "React, CSS",
+        descriptions: "Pri tomto projekte som nekládol veľký dôraz na dizajn ale na funkcionalitu a čistotu kódu, z toho dôvodu je tento projekt po vizuálnej stránke jednoduchý. Pri tomto projekte som si osvojoval prácu s react-router-dom a, osviežoval prácu s API.",
+        gitHub: "https://github.com/samotazky/fake_store",
+        netlify: "https://simple-fake-store.netlify.app"
+    }, {
         id: 3,
+        image: ageCalculator,
+        name: "Age calculator",
+        technologies: "HTML, CSS, JS",
+        descriptions: "Túto aplikáciu som programov podľa predlohy zo stránky Frontend Mentor. Táto aplikácia počíta na základe dátumu narodenia počet rokov, mesiacov a dní.",
+        gitHub: "https://github.com/samotazky/age-calculator-app-main",
+        netlify: "https://relaxed-creponne-2df784.netlify.app/"
+    }, {
+        id: 4,
         image: spaceTourism,
         name: "Space tourism",
         technologies: "HTML, CSS, JS",
@@ -30,7 +39,7 @@ const myProjects = [
         gitHub: "https://github.com/samotazky/space-tourism-website",
         netlify: "https://space-tourism123456.netlify.app/",
     }, {
-        id: 4,
+        id: 5,
         image: multiStepForm,
         name: "Multi step form",
         technologies: "HTML, CSS, JS",
@@ -38,7 +47,7 @@ const myProjects = [
         gitHub: "https://github.com/samotazky/multi-step-form-main",
         netlify: "https://multistepform5.netlify.app"
     }, {
-        id: 5,
+        id: 6,
         image: myPortfolio,
         name: "My portfolio",
         technologies: "React, CSS",

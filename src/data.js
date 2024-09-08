@@ -18,8 +18,8 @@ const myProjects = [
         id: 1,
         image: fakeStore,
         name: "Simple fake store",
-        technologies: "React, CSS",
-        descriptions: "Pri tomto projekte som si osvojoval prácu s react-router-dom, crateContext, používal API a vytvoril som jednoduchý obrázkový slider. Dizajn som sa snažil spraviť čo najprehľadnejší a najjednoduchší. Funkcie sú jednoduché: pridanie do košíku, vymazanie z košíku a výsledná suma produktov. Každý produkt má vlastnú podstránku kde sú detaily o produkte.",
+        technologies: "React, CSS, react-router-dom, API",
+        descriptions: "Dizajn som sa snažil spraviť čo najprehľadnejší a najjednoduchší. Funkcie sú jednoduché: pridanie do košíku, vymazanie z košíku a výsledná suma produktov. Taktiež má každý produkt podstránku kde sa naćhadza popis produktu.",
         gitHub: "https://github.com/samotazky/fake_store",
         netlify: "https://simple-fake-store.netlify.app"
     }, {

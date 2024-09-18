@@ -44,9 +44,30 @@
 }
 
 .road-map {
-    width: clamp(80px, 100%, 1200px);
+    width: clamp(80px, 100%, 1800px);
     height: auto;
     z-index: 1;
     top: 3px;
     position: absolute;
+}
+
+
+@media (min-width: 2000px) {
+    .table {
+        display: grid;
+        grid-template-columns: repeat(4, 18%);
+        grid-template-rows: repeat(3, 40%);
+        place-items: center;
+        gap: 10%;
+    }
+}
+
+@media (min-width: 2100px) {
+    .table {
+        display: grid;
+        grid-template-columns: repeat(4, 18%);
+        grid-template-rows: repeat(3, 45%);
+        place-items: center;
+        gap: 10%;
+    }
 }

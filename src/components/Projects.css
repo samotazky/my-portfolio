@@ -26,7 +26,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: clamp(290px, 31vw, 480px);
+    width: clamp(290px, 31vw, 680px);
     height: clamp(200px, 17vw, 400px);
     position: relative;
 }
@@ -114,5 +114,9 @@ button:hover {
 @media screen and (max-width: 795px) {
     #person-with-ntb {
         display: none;
+    }
+
+    #content {
+        position: static;
     }
 }

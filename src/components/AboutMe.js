@@ -1,9 +1,10 @@
 import "./AboutMe.css"
 import circles from "../images/Circles_bigger.svg"
 import me from "../images/me.png"
+import CV from "../images/Samuel Ťažký_CV.pdf"
 
 const AboutMe = () => {
-    return <div id="wrapper">
+    return <div className="about sec">
         <h1 className="subtitle">O mne</h1>
         <div className="content-about-me">
             <img className="circles" src={circles} alt="" />
@@ -15,7 +16,7 @@ const AboutMe = () => {
                     <div className="links-about-me">
                         <a className="github" href="https://github.com/samotazky" target="blank">GitHub</a>
                         <a className="linkedin" href="https://www.linkedin.com/feed/" target="blank">Linkedin</a>
-                        <a className="cv" href="/download/CV_S_TAZKY.pdf" download="CV_S_TAZKY">CV-čko</a>
+                        <a className="cv" href={CV} target="blank">CV-čko</a>
                     </div>
                 </div>
             </div>

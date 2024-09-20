@@ -18,7 +18,7 @@ const Projects = () => {
         }
     }
 
-    return <div id="content">
+    return <div className="work sec">
         <h1 className="subtitle">projekty</h1>
         <img src={circles} alt="" />
 

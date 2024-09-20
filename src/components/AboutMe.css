@@ -1,4 +1,4 @@
-#wrapper {
+.about {
     background-color: #D1D3D4;
     padding: clamp(50px, 11vh, 110px) 24px;
 }

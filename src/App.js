@@ -5,7 +5,7 @@ import Projects from "./components/Projects"
 import AboutMe from "./components/AboutMe"
 
 const App = () => {
-  return <div>
+  return <div className="wrapper">
     <Herosection />
     <Skills />
     <Projects />

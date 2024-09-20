@@ -3,7 +3,7 @@ import personWithPC from "../images/person_with_pc.png"
 import theet from "../images/Teeth.svg"
 
 const HeroSection = () => {
-    return <div className="container">
+    return <div className="hero sec">
         <div className="content">
             <img className="person" src={personWithPC} alt="" />
             <h1 className="title">Samueltazky</h1>

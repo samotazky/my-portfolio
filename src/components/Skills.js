@@ -3,7 +3,7 @@ import circles from "../images/Circles.svg"
 import roadMap from "../images/road-map.png"
 
 const Skills = () => {
-    return <div className="container-tech">
+    return <div className="skill sec">
         <h1 className="subtitle">Technológie <br/>& Skills</h1>
         
         <img src={circles} alt="" />

@@ -10,10 +10,10 @@ const myProjects = [
         id: 2,
         image: interiorDesign,
         name: "Interior design",
-        technologies: "HTML, SCSS, JS",
-        descriptions: "Projekt ktorý slúži na prezentáciu firmy, ktorá sa zaoberá návrhom interiéru a následnou montážou.PRACUJEM NA DOKONČENÍ!!!",
-        gitHub: "https://github.com/samotazky/Interior-design-webpage",
-        netlify: "https://stalwart-belekoy-9d1f40.netlify.app/"
+        technologies: "React, Tailwind, react-router",
+        descriptions: "Projekt ktorý slúži na prezentáciu firmy, ktorá sa zaoberá návrhom interiéru.",
+        gitHub: "https://github.com/samotazky/my-portfolio.git",
+        netlify: "https://homeinteriorsproj.netlify.app"
     }, {
         id: 1,
         image: fakeStore,

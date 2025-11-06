@@ -10,7 +10,7 @@ const myProjects = [
         id: 2,
         image: interiorDesign,
         name: "Interior design",
-        technologies: "React, Tailwind, react-router",
+        technologies: "React, Tailwind, react-router-dom, Framer-motion",
         descriptions: "Projekt ktorý slúži na prezentáciu firmy, ktorá sa zaoberá návrhom interiéru.",
         gitHub: "https://github.com/samotazky/my-portfolio.git",
         netlify: "https://homeinteriorsproj.netlify.app"
